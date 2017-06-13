@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_weight="1"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_startTime"
+            android:layout_weight="1"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_endTime"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_startAirport"
+            android:layout_weight="1"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_endAirport"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_FlightName"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_FlightNumber"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

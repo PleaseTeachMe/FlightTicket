@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">航班管家</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="map_title">地图</string>
+    <string name="mine_title">个人中心</string>
+    <string name="weather_title">天气</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- 按钮样式 -->
+    <style name="btn_bg_and_textcolor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/wtm_btn_bg_selector</item>
+        <item name="android:textColor">@drawable/zgq_btn_text_color</item>
+    </style>
+    <style name="btmessage_bg_and_textcolor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/wtm_btn_bg_selector</item>
+        <item name="android:textColor">@drawable/zgq_btn_text_color</item>
+    </style>
+</resources>

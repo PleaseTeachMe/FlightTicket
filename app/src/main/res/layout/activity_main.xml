@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zl.fiight.MainActivity">
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ViewPager_height"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.zl.fiight.utils.MyRadioButton
+            android:id="@+id/rb_ticket"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="机票"
+            android:textColor="@drawable/text_ticket"
+            android:textSize="15sp"
+            myradio:drawableSize="30dp"
+            myradio:drawableTop="@drawable/main_ticket_picture_select"
+        />
+
+        <com.zl.fiight.utils.MyRadioButton
+            android:id="@+id/rb_weather"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="动态"
+            android:textColor="@drawable/text_map"
+            android:textSize="15sp"
+            myradio:drawableSize="30dp"
+            myradio:drawableTop="@drawable/main_map_picture_select"
+        />
+
+        <com.zl.fiight.utils.MyRadioButton
+            android:id="@+id/rb_map"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="天气"
+            android:textColor="@drawable/text_weather"
+            android:textSize="15sp"
+            myradio:drawableSize="30dp"
+            myradio:drawableTop="@drawable/main_weather_picture_select"
+        />
+
+        <com.zl.fiight.utils.MyRadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@drawable/text_mine"
+            android:textSize="15sp"
+            myradio:drawableSize="30dp"
+            myradio:drawableTop="@drawable/main_mine_picture_select"
+        />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/airport_head_bg"
+    tools:context="com.zl.fiight.activity.SetActivity">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/bt_LogOut"
+        android:layout_gravity="end"
+        style="@style/btn_bg_and_textcolor"
+        android:text="退出登录"/>
+
+</LinearLayout>

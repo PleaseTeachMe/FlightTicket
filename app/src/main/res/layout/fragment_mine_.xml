@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.zl.fiight.fragment.Mine_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/Circular_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/icon"/>
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:text="登录"
+            android:layout_marginEnd="20dp"
+            android:layout_alignTop="@+id/bt_register"
+            android:layout_alignEnd="@+id/Circular_head"/>
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:text="注册"
+            android:layout_below="@+id/Circular_head"
+            android:layout_alignStart="@+id/Circular_head"
+            android:layout_marginStart="20dp"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

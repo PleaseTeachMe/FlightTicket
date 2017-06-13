@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zl.fiight.activity.UpdatePassActivity">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_originalpass"
+            android:layout_centerVertical="true"
+            android:text="原密码"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_originalpass"
+            android:layout_alignParentRight="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_newpassa"
+            android:layout_centerVertical="true"
+            android:text="新密码"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_newpassa"
+            android:layout_alignParentRight="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_newpassb"
+            android:layout_centerVertical="true"
+            android:text="新密码"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_newpassb"
+            android:layout_alignParentRight="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/bt_update"
+        style="@style/btn_bg_and_textcolor"
+        android:clickable="true"
+        android:text="确认修改"
+    />
+</LinearLayout>
